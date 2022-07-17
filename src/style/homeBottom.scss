@@ -1,0 +1,292 @@
+.fast{
+    width: 1200px;
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title{
+        
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 60px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: -0.005em;
+
+        color: #010101;
+    }
+    &__text{
+        margin-top: 24px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        /* identical to box height, or 29px */
+
+        text-align: center;
+
+        color: #656361;
+    }
+    &__flexRow{
+        margin-top: 72px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap:40px;
+    }
+    &__imgDiv{
+        width: 330px;
+    }
+    &__textDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+    }
+    &__card{
+        padding-left: 75px;
+        height: 120px;
+        width: 400px;
+        position: relative;
+        &_title{
+            text-align: left;
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #010101;
+        }
+        &_text{
+            margin-top: 10px;
+            text-align: left;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 180%;
+            /* or 29px */
+
+
+            color: #656361;
+        }
+        &_imgWrap{
+            position: absolute;
+            width: 48px;
+            height: 48px;
+
+            background: #f3f2fb;
+            border-radius: 10px;
+            left: 0px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+}
+
+.offers{
+    width: 1200px;
+    margin: 150px auto 0;
+    &__title{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 60px;
+        /* identical to box height, or 133% */
+        
+        letter-spacing: -0.005em;
+        
+        color: #010101;
+    }
+    &__text{
+        margin-top: 24px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        /* identical to box height, or 29px */
+        
+        text-align: center;
+        
+        color: #656361;
+                
+    }
+    &__cardsWrap{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    &__card{
+        width: 277px;
+        height: 118px;
+        position: relative;
+        border-radius: 16px;
+        &-orange{
+            background: #FF795B;
+        }
+        &-darkBlue{
+            background: #28489F;
+        }
+        &-blue{
+            background: #4366B5;
+        }
+        &-green{
+            background: #2ABB51;
+        }
+        &-purple{
+            background: #755EA8;
+        }
+        &-cyan{
+            background: #2AB2BB;
+        }
+        &-lilac{
+            background: #8F93E6;
+        }
+        &-pink{
+            background: #FF7E7E;
+        }
+    }
+    &__cardText{
+        position: absolute;
+        left: 24px;
+        bottom: 30px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        
+        color: #FFFFFF;
+    }
+    &__cardImg{
+        position: absolute;
+        left: 24px;
+        top: 24px;
+    }
+}
+
+.cat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 160px;
+    &__button{
+        position: absolute;
+        top: 274px;
+        background: #FFFFFF;
+        border-radius: 29px;
+        width: 172px;
+        height: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        
+    &__text{
+        background: linear-gradient(180deg, #2EB653 0%, #1B6D31 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    }
+}
+
+.mail{
+    width: 600px;
+    margin: 140px auto;
+    &__title{
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 52px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+    }
+    &__text{
+        margin-top: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        
+        color: #000000;
+    }
+    &__form{
+        margin-top: 64px;
+        width: 587px;
+        height: 72px;
+        position: relative;
+        
+        border: 1px solid #D4CBC4;
+        border-radius: 1000px;
+    }
+    &__button{
+        position: absolute;
+        width: 151px;
+        height: 56px;
+        left: 425px;
+        top: 8px;
+        
+        background: #202097;
+        border-radius: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        cursor: pointer;
+    }
+    &__icon{
+        position: absolute;
+        left: 30px;
+        top: 21px;
+        width: 30px;
+    }
+    &__input{
+        border: none;
+        width: 309px;
+        position: absolute;
+        left: 83px;
+        top: 15px;
+        height: 40px;
+        font-size: 18px;
+        outline: 0;
+            // outline-offset: 0;
+        
+        ::placeholder{
+            // font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #656361;
+            outline: 0;
+            // outline-offset: 0;
+        }
+        // :focus-within{
+        //     border:none;
+        //     outline: 0;
+        //     outline-offset: 0;
+        // }
+    }
+}

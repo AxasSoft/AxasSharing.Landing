@@ -1,0 +1,92 @@
+.footer{
+    width: 100%;
+    border-top: 2px solid rgb(202, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrap{
+        width: 1400px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    &__leftColumn{
+        margin-top: 64px;
+        width: 372px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 110px;
+
+        &_top{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }   
+    }
+    &__text{
+        margin-top: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        color: #656361;
+        min-width: 268px;
+        text-align: left;
+        max-width: 370px;
+        min-width: 221px;
+        &-rightText{
+            margin-top:16px;
+        }
+    }
+    &__wrapIcons{
+        width: 300px;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+    &__iconDiv{
+        // position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 118px;
+        border-radius: 100%;
+        background: #ffffff;
+        
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    &__title{
+        text-align: left;
+        margin-top: 64px;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        
+        
+        color: #010101;
+    }
+    &__bottom{
+        width: 100%;
+        border-top: 2px solid rgb(202, 202, 202);
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        
+        color: #656361;
+        margin-bottom: 40px;
+        margin-top: 26px;
+        padding-top: 24px;
+    }
+}
