@@ -30,7 +30,7 @@
                         <img src="@/assets/cardIcon1.png" >
                     </div>
                     <div class="HIW__card_text">
-                        Снимаете квартиру
+                        Бронируете квартиру
                     </div>
                     <div class="HIW__card_number">
                         2
@@ -56,7 +56,7 @@
                         <img src="@/assets/cardIcon1.png" >
                     </div>
                     <div class="HIW__card_text">
-                        Сдаю квартиру
+                        Проходите регистрацию
                     </div>
                     <div class="HIW__card_number">
                         1
@@ -68,7 +68,7 @@
                         <img src="@/assets/cardIcon1.png" >
                     </div>
                     <div class="HIW__card_text">
-                        Сдаю квартиру
+                        Получаете прибыль
                     </div>
                     <div class="HIW__card_number">
                         2
